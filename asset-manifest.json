@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/leadQResearch/static/css/main.5d4478cd.css",
-    "main.js": "/leadQResearch/static/js/main.d79356e0.js",
+    "main.js": "/leadQResearch/static/js/main.7ca2f7ca.js",
     "static/js/787.b55bb180.chunk.js": "/leadQResearch/static/js/787.b55bb180.chunk.js",
     "static/media/blog9-img.jpg": "/leadQResearch/static/media/blog9-img.35be964cf0ea82188ef2.jpg",
     "static/media/art-course.jpg": "/leadQResearch/static/media/art-course.d167903288709e7b706a.jpg",
@@ -42,11 +42,11 @@
     "static/media/person6.jpg": "/leadQResearch/static/media/person6.a4669241d790d3eba4e7.jpg",
     "index.html": "/leadQResearch/index.html",
     "main.5d4478cd.css.map": "/leadQResearch/static/css/main.5d4478cd.css.map",
-    "main.d79356e0.js.map": "/leadQResearch/static/js/main.d79356e0.js.map",
+    "main.7ca2f7ca.js.map": "/leadQResearch/static/js/main.7ca2f7ca.js.map",
     "787.b55bb180.chunk.js.map": "/leadQResearch/static/js/787.b55bb180.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d4478cd.css",
-    "static/js/main.d79356e0.js"
+    "static/js/main.7ca2f7ca.js"
   ]
 }
