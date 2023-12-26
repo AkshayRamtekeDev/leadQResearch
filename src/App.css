@@ -41,7 +41,7 @@ nav .navbar-toggler:focus {
 }
 
 .footer-navigation li:hover {
-  color: #212529;
+  color: white;
 }
 
 @media only screen and (max-width: 992px) {

@@ -40,7 +40,7 @@ function Home() {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.</p>
                 <div className='d-flex flex-column flex-sm-row align-items-center'>
                     <Link to="/courses">
-                        <button type='button' className='btn btn-info btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Courses</button>
+                        <button type='button' className='btn btn-info btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Services</button>
                     </Link>
                     <Link to="/contact">
                         <button type='button' className='btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
@@ -53,7 +53,7 @@ function Home() {
             <ChooseSection />
         </div>
 
-        <div className='py-5 bg-light'>
+        <div className='py-5 text-white bg-secondary'>
             <div className="container">
                 <div className='row d-flex align-items-center justify-content-around'>
                     <div className='col-lg-5'>
@@ -74,7 +74,7 @@ function Home() {
             <FaqAccordion />
         </div>
 
-        <div className='blog-section text-light py-5'>
+        {/* <div className='blog-section text-light py-5'>
             <div className='container d-flex flex-column align-items-center'>
                 <h2 className='text-center text-capitalize mb-5'>Latest on the blog</h2>
                 <div className='row g-4'>
@@ -96,7 +96,7 @@ function Home() {
                     <button type='button' className='btn btn-info btn-lg mt-5'>Read More Blogs</button>
                 </Link>
             </div>
-        </div>
+        </div> */}
     </div>
   )
 }

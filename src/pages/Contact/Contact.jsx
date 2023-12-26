@@ -48,9 +48,9 @@ function Contact() {
                     <Col sm={12} md={6} className='mb-3 mb-md-0'>
                         <Form.Label>Location</Form.Label>
                         <Form.Select defaultValue="London">
-                            <option>London</option>
-                            <option>Manchester</option>
-                            <option>Liverpool</option>
+                            <option>Pune</option>
+                            <option>Hyderabad</option>
+                            <option>Banglore</option>
                         </Form.Select>
                     </Col>
                     <Col sm={12} md={6}>
@@ -64,7 +64,7 @@ function Contact() {
                     <Form.Control as="textarea" rows={3} />
                 </Form.Group>
 
-                <Button variant="danger btn-lg" type='submit'>Submit</Button>
+                <Button variant="info btn-lg" type='submit'>Submit</Button>
             </Form>
         </div>
 
@@ -74,15 +74,15 @@ function Contact() {
                 <div className='row g-4'>
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
                         <img src={LondonLocationImg} className='img-fluid' alt="" />
-                        <h3 className='text-center mt-3'>London</h3>
+                        <h3 className='text-center mt-3'>Pune</h3>
                     </div>
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
                         <img src={ManchesterLocationImg} className='img-fluid' alt="" />
-                        <h3 className='text-center mt-3'>Manchester</h3>
+                        <h3 className='text-center mt-3'>Hyderabad</h3>
                     </div>
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
                         <img src={LiverpoolLocationImg} className='img-fluid' alt="" />
-                        <h3 className='text-center mt-3'>Liverpool</h3>
+                        <h3 className='text-center mt-3'>Banglore</h3>
                     </div>
                 </div>
             </div>

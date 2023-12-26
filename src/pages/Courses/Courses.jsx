@@ -15,25 +15,25 @@ const courses = [
     {
         id: 1,
         img: [ArtCourseImg],
-        title: 'Art Course',
+        title: 'Art Service',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 2,
         img: [BusinessCourseImg],
-        title: 'Business Course',
+        title: 'Business Service',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 3,
         img: [ComputerScienceCourseImg],
-        title: 'Computer Science Course',
+        title: 'Computer Science Service',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 4,
         img: [EducationCourseImg],
-        title: 'Education Course',
+        title: 'Education Service',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
@@ -45,19 +45,19 @@ const courses = [
     {
         id: 6,
         img: [LawCourseImg],
-        title: 'Law Course',
+        title: 'Law Service',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 7,
         img: [MusicCourseImg],
-        title: 'Music Course',
+        title: 'Music Service',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
     {
         id: 8,
         img: [SportCourseImg],
-        title: 'Sport Course',
+        title: 'Sport Service',
         description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
     },
 ];
@@ -67,7 +67,7 @@ function Courses() {
     <div className='courses-page'>
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>Our Courses</h1>
+                <h1 className='text-center fw-semibold'>Our Services</h1>
                 <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!</p>
             </div>
         </header>
@@ -88,7 +88,7 @@ function Courses() {
             </div>
         </div>
 
-        <div className='bg-dark text-light py-5'>
+        <div className='courses-background-color text-light py-5'>
             <FaqAccordion />
         </div>
     </div>

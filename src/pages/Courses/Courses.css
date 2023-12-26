@@ -9,3 +9,7 @@
 .courses-page .card:hover {
     cursor: pointer;
 }
+
+.courses-background-color{
+    background-color: #31d2f2;
+}
