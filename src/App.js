@@ -6,7 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Home from './pages/Home/Home';
 import Courses from './pages/Courses/Courses';
 import About from './pages/About/About';
-import Blog from './pages/Blog/Blog';
+// import Blog from './pages/Blog/Blog';
 import Contact from './pages/Contact/Contact';
 
 function App() {
@@ -88,9 +88,9 @@ function App() {
                     <Link to="/about" className='text-decoration-none text-info'>
                       <li className='text-uppercase fw-semibold'>About us</li>
                     </Link>
-                    <Link to="/blog" className='text-decoration-none text-info'>
+                    {/* <Link to="/blog" className='text-decoration-none text-info'>
                       <li className='text-uppercase fw-semibold'>Blog</li>
-                    </Link>
+                    </Link> */}
                     <Link to="/contact" className='text-decoration-none text-info'>
                       <li className='text-uppercase fw-semibold'>Get In Touch</li>
                     </Link>
