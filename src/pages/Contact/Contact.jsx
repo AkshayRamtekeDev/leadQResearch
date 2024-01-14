@@ -60,7 +60,7 @@ function Contact() {
                     </Form.Group>
                     <Form.Group className='mb-3'>
                         <Form.Label>Your Message</Form.Label>
-                        <Form.Control as="textarea" rows={3} />
+                        <Form.Control as="textarea" name='message' rows={3} />
                     </Form.Group>
 
                     <Button variant="info btn-lg" type="submit" value="Send" >Submit</Button>
