@@ -15,84 +15,56 @@ const courses = [
     {
         id: 1,
         img: [ArtCourseImg],
-        title: 'Art Service',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
+        title: 'Targeted List by Job Title',
+        description: 'By tailoring your B2B email list, You can make sure that the right professionals are seeing your marketing communications according to certain job titles. This will increase the possibility of engagement and conversion. This method increases the efficacy of your email campaigns while saving you time and money.'
     },
     {
         id: 2,
         img: [BusinessCourseImg],
-        title: 'Business Service',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
+        title: 'Targeted List by Industry',
+        description: 'By customizing your B2B email list based on targeted job industries, you can ensure that your marketing messages are reaching professionals who are most likely to have a genuine interest in your offerings. This approach helps you save time and resources by focusing your efforts on the industries that are most relevant to your business.'
     },
     {
         id: 3,
         img: [ComputerScienceCourseImg],
-        title: 'Computer Science Service',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
+        title: 'Targeted List by Country',
+        description: ' Customizing your B2B email list based on targeted job countries enables you to tailor your marketing messages to the cultural and business nuances of each country. It allows you to address specific challenges and opportunities within those regions, ensuring your campaigns are more relevant and engaging for your audience.'
     },
-    {
-        id: 4,
-        img: [EducationCourseImg],
-        title: 'Education Service',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 5,
-        img: [HealthcareCourseImg],
-        title: 'Healthcare Course',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 6,
-        img: [LawCourseImg],
-        title: 'Law Service',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 7,
-        img: [MusicCourseImg],
-        title: 'Music Service',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
-    {
-        id: 8,
-        img: [SportCourseImg],
-        title: 'Sport Service',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!'
-    },
+
 ];
 
 function Courses() {
-  return (
-    <div className='courses-page'>
-        <header className='height-75'>
-            <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
-                <h1 className='text-center fw-semibold'>Our Services</h1>
-                <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odio eos distinctio ducimus! Modi quaerat dolores illo accusamus maxime cupiditate culpa minus animi repellat autem!</p>
-            </div>
-        </header>
+    return (
+        <div className='courses-page'>
+            <header className='height-75'>
+                <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
+                    <h1 className='text-center fw-semibold'>Our Services</h1>
+                    <p className='text-center w-75 mb-5'>Are you looking for B2B email lists to scale your marketing strategies? Our services are exactly what you need. The data sets we offer cover the most prominent global industries, including large corporations, SMEs, and executive staff.</p>
+                </div>
+            </header>
 
-        <div className='container py-5'>
-            <div className='row g-4'>
-                {courses.map((course) => (
-                    <div key={course.id} className='col-lg-6'>
-                        <Card className='text-white shadow scale-hover-effect'>
-                            <Card.Img src={course.img} />
-                            <Card.ImgOverlay className='d-flex flex-column align-items-center justify-content-center p-md-5'>
-                                <Card.Title className='fs-1 text-info'>{course.title}</Card.Title>
-                                <Card.Text className='text-center'>{course.description}</Card.Text>
-                            </Card.ImgOverlay>
-                        </Card>
-                    </div>
-                ))}
+            <div className='container py-5'>
+                <h1 className='text-center'>Customize Your B2B Email List Based On </h1>
+                <div className='row g-4'>
+                    {courses.map((course) => (
+                        <div key={course.id} className='col-lg-6'>
+                            <Card className='text-white shadow scale-hover-effect'>
+                                <Card.Img src={course.img} />
+                                <Card.ImgOverlay className='d-flex flex-column align-items-center justify-content-center p-md-5'>
+                                    <Card.Title className='fs-1 text-info'>{course.title}</Card.Title>
+                                    <Card.Text className='text-center'>{course.description}</Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </div>
+                    ))}
+                </div>
             </div>
-        </div>
 
-        <div className='courses-background-color text-light py-5'>
-            <FaqAccordion />
+            {/* <div className='courses-background-color text-light py-5'>
+                <FaqAccordion />
+            </div> */}
         </div>
-    </div>
-  )
+    )
 }
 
 export default Courses;
