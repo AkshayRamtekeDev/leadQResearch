@@ -102,7 +102,7 @@ function Contact() {
                 ))}
 
             </div>
-
+            {/* 
             <div className='bg-dark text-light p-5'>
                 <div className='container'>
                     <h2 className='text-center mb-5'>Our Locations</h2>
@@ -121,7 +121,7 @@ function Contact() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }

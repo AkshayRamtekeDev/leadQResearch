@@ -31,50 +31,51 @@ const blogs = [
 ];
 
 function Home() {
-  return (
-    <div className='home-page'>
-        <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
-            <div className='container d-flex flex-column align-items-center'>
-                <h2>Welcome To</h2>
-                <h1 className='text-center fw-semibold'>LeadsQResearch</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.</p>
-                <div className='d-flex flex-column flex-sm-row align-items-center'>
-                    <Link to="/courses">
-                        <button type='button' className='btn btn-info btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Services</button>
-                    </Link>
-                    <Link to="/contact">
-                        <button type='button' className='btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
-                    </Link>
-                </div>
-            </div>
-        </header>
-
-        <div className="py-5">
-            <ChooseSection />
-        </div>
-
-        <div className='py-5 text-white bg-secondary'>
-            <div className="container">
-                <div className='row d-flex align-items-center justify-content-around'>
-                    <div className='col-lg-5'>
-                        <h2 className='text-capitalize'>2024 start courses</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat.</p>
+    return (
+        <div className='home-page'>
+            <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
+                <div className='container d-flex flex-column align-items-center'>
+                    <h2>Welcome To</h2>
+                    <h1 className='text-center fw-semibold'>LeadsQResearch</h1>
+                    <p>LeadsQResearch develops artificial intelligence, data science, and real-time data management technology. Our research team collaborates with your company to provide comprehensive support for all of your business-to-business data requirements.
+                    </p>
+                    <div className='d-flex flex-column flex-sm-row align-items-center'>
                         <Link to="/courses">
-                            <button type='button' className='btn btn-info btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Learn More</button>
+                            <button type='button' className='btn btn-info btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Services</button>
+                        </Link>
+                        <Link to="/contact">
+                            <button type='button' className='btn btn-outline-light btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
                         </Link>
                     </div>
-                    <div className='col-lg-5 mt-5 mt-lg-0'>
-                        <img src={StartCoursesImg} className='img-fluid' alt="" />
+                </div>
+            </header>
+
+            <div className="py-5">
+                <ChooseSection />
+            </div>
+
+            {/* <div className='py-5 text-white bg-secondary'>
+                <div className="container">
+                    <div className='row d-flex align-items-center justify-content-around'>
+                        <div className='col-lg-5'>
+                            <h2 className='text-capitalize'>2024 start courses</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat.</p>
+                            <Link to="/courses">
+                                <button type='button' className='btn btn-info btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Learn More</button>
+                            </Link>
+                        </div>
+                        <div className='col-lg-5 mt-5 mt-lg-0'>
+                            <img src={StartCoursesImg} className='img-fluid' alt="" />
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> */}
 
-        <div className="py-5">
-            <FaqAccordion />
-        </div>
+            {/* <div className="py-5">
+                <FaqAccordion />
+            </div> */}
 
-        {/* <div className='blog-section text-light py-5'>
+            {/* <div className='blog-section text-light py-5'>
             <div className='container d-flex flex-column align-items-center'>
                 <h2 className='text-center text-capitalize mb-5'>Latest on the blog</h2>
                 <div className='row g-4'>
@@ -97,8 +98,8 @@ function Home() {
                 </Link>
             </div>
         </div> */}
-    </div>
-  )
+        </div>
+    )
 }
 
 export default Home;
