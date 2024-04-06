@@ -23,14 +23,14 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        // emailjs.sendForm('service_0k7wnc6', 'template_d1qc8nz', form.current, '0xRZ3s4JOEv2fgBJ6')
-        //     .then((result) => {
-        //         console.log(result.text);
-        //         e.target.reset();
-        //         setValid(false);
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
+        emailjs.sendForm('service_0k7wnc6', 'template_d1qc8nz', form.current, '0xRZ3s4JOEv2fgBJ6')
+            .then((result) => {
+                console.log(result.text);
+                e.target.reset();
+                setValid(false);
+            }, (error) => {
+                console.log(error.text);
+            });
     };
 
     const validate = () => {
