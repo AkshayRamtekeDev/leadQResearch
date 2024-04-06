@@ -2,6 +2,10 @@
     background-image: linear-gradient(rgba(5, 10, 35, 0.75), rgba(5, 10, 35, 0.75)), url(../../utils/images/courses-page-header.jpg);
 }
 
+.height-header {
+    height: 600px;
+}
+
 .courses-page .card-img-overlay {
     background-color: rgba(5, 10, 35, 0.7);
 }
@@ -10,6 +14,10 @@
     cursor: pointer;
 }
 
-.courses-background-color{
+.courses-background-color {
     background-color: #31d2f2;
+}
+
+.img-height {
+    height: 450px;
 }

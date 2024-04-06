@@ -79,12 +79,12 @@ const globalMarket = [
 function Courses() {
     return (
         <div className='courses-page'>
-            <header className='height-75'>
+            <header className='height-header'>
                 <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                     <h1 className='text-center fw-semibold'>Our Services</h1>
                     <p className='text-center w-75 my-3'>Are you looking for B2B email lists to scale your marketing strategies? Our services are exactly what you need. The data sets we offer cover the most prominent global industries, including large corporations, SMEs, and executive staff.</p>
                     <h3>AND ALSO</h3>
-                    <p className='text-center w-75 my-3'>Global market research firm LeadsQRearch is proud of the services it provides, providing a thorough and precise study of a variety of global markets and customers. With the help of several data sources and proprietary information, LeadsQResearch's strategy provides a comprehensive understanding of current events, anticipated changes, and recommendations for action based on these factors for the customer.
+                    <p className='text-center w-75 my-3'>LeadsQResearch offers detailed global market and customer analyses, utilizing multiple data sources to inform clients about current trends, future shifts, and actionable insights.
                     </p>
                 </div>
             </header>
@@ -94,23 +94,23 @@ function Courses() {
                     {courses.map((course) => (
                         <div key={course.id} className='col-lg-6'>
                             <Card className='text-white shadow scale-hover-effect'>
-                                <Card.Img src={course.img} />
+                                <Card.Img src={course.img} className='img-height' />
                                 <Card.ImgOverlay className='d-flex flex-column align-items-center justify-content-center p-md-5'>
-                                    <Card.Title className='fs-1 text-info'>{course.title}</Card.Title>
+                                    <Card.Title className='fs-1 text-info text-center'>{course.title}</Card.Title>
                                     <Card.Text className='text-center'>{course.description}</Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
                         </div>
                     ))}
                 </div>
-                <h1 className='text-center mt-5'>Study of global markets and customers Based On </h1>
+                <h1 className='text-center mt-5 mb-3'>Study of global markets and customers Based On </h1>
                 <div className='row g-4'>
                     {globalMarket.map((course) => (
                         <div key={course.id} className='col-lg-6'>
                             <Card className='text-white shadow scale-hover-effect'>
-                                <Card.Img src={course.img} />
+                                <Card.Img src={course.img} className='img-height' />
                                 <Card.ImgOverlay className='d-flex flex-column align-items-center justify-content-center p-md-5'>
-                                    <Card.Title className='fs-1 text-info'>{course.title}</Card.Title>
+                                    <Card.Title className='fs-1 text-info text-center'>{course.title}</Card.Title>
                                     <Card.Text className='text-center'>{course.description}</Card.Text>
                                 </Card.ImgOverlay>
                             </Card>
