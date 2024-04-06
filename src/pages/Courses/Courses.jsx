@@ -42,7 +42,7 @@ const courses = [
         id: 5,
         img: [Business],
         title: 'Targeted List By Technology',
-        description: 'Your competitive advantage can no longer be guaranteed by firmographics and demographics. Technographics is all the necessary information about the tools and technology that a consumer actively utilizes, just like demographics helps you learn more about the Age, Gender, Occupation, Annual Income, etc. of a target profile.Without a deep grasp of your target accounts technology usage, purchasing decisions, behavior patterns, IT budget, and much more, you cannot possibly hope to influence them to take a look at your offering as a technology marketer.'
+        description: 'Your competitive advantage can no longer be guaranteed by firmographics and demographics. Technographics is all the necessary information about the tools and technology that a consumer actively utilizes, just like demographics helps you learn more about the Age, Gender, Occupation, Annual Income, etc. of a target profile.'
     },
     {
         id: 6,
