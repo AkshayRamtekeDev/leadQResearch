@@ -122,6 +122,24 @@ function ChooseSection() {
                             </div> */}
                             <Card.Body>
                                 <Card.Title className='text-center text-capitalize mb-3'>
+                                    Data Mining
+                                </Card.Title>
+                                <Card.Text className='text-center'>
+                                    Our data mining service identifies decision-makers in target companies. We curate specialized contact lists, expediting sales and marketing efforts. Precise data enhances success in connecting with other businesses.
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
+
+                    <div className='col-lg-4'>
+                        <Card className='d-flex align-items-center border-0 h-100'>
+                            {/* <div className='mt-3'>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#dc3545" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
+                                </svg>
+                            </div> */}
+                            <Card.Body>
+                                <Card.Title className='text-center text-capitalize mb-3'>
                                     Research Service
                                 </Card.Title>
                                 <Card.Text className='text-center'>

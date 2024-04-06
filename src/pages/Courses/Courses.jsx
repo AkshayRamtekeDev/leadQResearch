@@ -56,6 +56,13 @@ const courses = [
         title: 'Targeted List By C Level Executives',
         description: 'Our C-Level Executives List provides you with extremely accurate contact information to reach your prospects by phone, email, or letter, regardless of the C-Level Executives you wish to connect with: CEOs, CIOs, CFOs, CTOs, CMOs, CSOs, COOs, or any other C-Level Executive. With our C-Level Executives Email List, communicating with these executives is much simpler and takes less time because you wont need to go through several channels to get your point across.'
     },
+    {
+        id: 7,
+        img: [Business],
+        title: 'Targeted List By Data Mining',
+        description: 'Our data mining service enhances your marketing strategy by identifying the decision-makers in the companies you wish to engage with. We curate specialized lists containing vital contacts tailored specifically for your needs. These lists expedite your sales and marketing endeavors by providing access to top-tier leads, thereby optimizing your resources and saving valuable time and money. Our precise data ensures greater chances of success when connecting with other businesses!'
+    },
+
 
 ];
 
