@@ -36,7 +36,6 @@ function App() {
               <Nav.Link href='/' className='text-uppercase'>Home</Nav.Link>
               <Nav.Link href='/courses' className='text-uppercase'>Our Services</Nav.Link>
               <Nav.Link href='/about' className='text-uppercase'>About us</Nav.Link>
-              {/* <Nav.Link href='/blog' className='text-uppercase'>Blog</Nav.Link> */}
               <Nav.Link href='/contact' className='text-uppercase'>Get in touch</Nav.Link>
             </Nav>
           </Navbar.Collapse>
