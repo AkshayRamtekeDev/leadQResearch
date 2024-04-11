@@ -23,7 +23,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_0k7wnc6', 'template_d1qc8nz', form.current, '0xRZ3s4JOEv2fgBJ6')
+        emailjs.sendForm(process.env.REACT_APP_EMAILJS_GMAIL_SERVICE, process.env.REACT_APP_EMAILJS_TEMPLATEID, form.current, process.env.REACT_APP_EMAILJS_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
                 e.target.reset();
