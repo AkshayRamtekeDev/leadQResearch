@@ -34,7 +34,7 @@ function ChooseSection() {
                             </div> */}
                             <Card.Body>
                                 <Card.Title className='text-center text-capitalize mb-3'>
-                                    Data By Geography
+                                    Data By Country
                                 </Card.Title>
                                 <Card.Text className='text-center'>
                                     To better target your lists, LeadsQResearch allows you to filter your data selection based on location. You can search by radius, corridors, region, province, and more. Choose international data based on LATAM, NA, APAC, and EMEA.
@@ -59,59 +59,6 @@ function ChooseSection() {
                             </Card.Body>
                         </Card>
                     </div>
-                    <div className='col-lg-4'>
-                        <Card className='d-flex align-items-center border-0 h-100'>
-                            {/* <div className='mt-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#dc3545" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                </svg>
-                            </div> */}
-                            <Card.Body>
-                                <Card.Title className='text-center text-capitalize mb-3'>
-                                    Data By Technology
-                                </Card.Title>
-                                <Card.Text className='text-center'>
-                                    We use a security plan to safeguard your information. The cornerstone of all the operations in your firm is data.
-                                    Solutions for B2B Technology Marketing and Sales Enablement
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                    <div className='col-lg-4'>
-                        <Card className='d-flex align-items-center border-0 h-100'>
-                            {/* <div className='mt-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#dc3545" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                </svg>
-                            </div> */}
-                            <Card.Body>
-                                <Card.Title className='text-center text-capitalize mb-3'>
-                                    B2B Email List
-                                </Card.Title>
-                                <Card.Text className='text-center'>
-                                    Contact information for people employed by different companies, such as managers, executives, decision-makers, and other experts pertinent to particular industries, is usually included in B2B email lists.
-
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                    <div className='col-lg-4'>
-                        <Card className='d-flex align-items-center border-0 h-100'>
-                            {/* <div className='mt-3'>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="#dc3545" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                </svg>
-                            </div> */}
-                            <Card.Body>
-                                <Card.Title className='text-center text-capitalize mb-3'>
-                                    C Level Executives
-                                </Card.Title>
-                                <Card.Text className='text-center'>
-                                    Use Our C-Level Executives List To Get in Touch With The Highest Decision-Making Personnel
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
 
                     <div className='col-lg-4'>
                         <Card className='d-flex align-items-center border-0 h-100'>
@@ -122,10 +69,10 @@ function ChooseSection() {
                             </div> */}
                             <Card.Body>
                                 <Card.Title className='text-center text-capitalize mb-3'>
-                                    Data Mining
+                                    Lead Generation
                                 </Card.Title>
                                 <Card.Text className='text-center'>
-                                    Our data mining service identifies decision-makers in target companies. We curate specialized contact lists, expediting sales and marketing efforts. Precise data enhances success in connecting with other businesses.
+                                    Leads Q Research helps companies generate more leads by creating high-quality content, running targeted advertising campaigns, and building relationships with key decision-makers.
                                 </Card.Text>
                             </Card.Body>
                         </Card>

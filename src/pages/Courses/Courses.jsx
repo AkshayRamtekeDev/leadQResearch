@@ -32,37 +32,59 @@ const courses = [
         title: 'Targeted List by Country',
         description: ' Customizing your B2B email list based on targeted job countries enables you to tailor your marketing messages to the cultural and business nuances of each country. It allows you to address specific challenges and opportunities within those regions, ensuring your campaigns are more relevant and engaging for your audience.'
     },
-    {
-        id: 4,
-        img: [Business],
-        title: 'Targeted List By Geography',
-        description: 'One highly successful targeting strategy is to choose marketing data based on location. One of the best strategies to expedite the sales process is to concentrate on the areas where the greatest concentration of prospects work with the highest quality. Additionally, it can help with the establishment of focused outbound campaigns and new regional sales teams. You can search by radius, corridor, region, country, province, etc.'
-    },
-    {
-        id: 5,
-        img: [Business],
-        title: 'Targeted List By Technology',
-        description: 'Your competitive advantage can no longer be guaranteed by firmographics and demographics. Technographics is all the necessary information about the tools and technology that a consumer actively utilizes, just like demographics helps you learn more about the Age, Gender, Occupation, Annual Income, etc. of a target profile.'
-    },
-    {
-        id: 6,
-        img: [Business],
-        title: 'Targeted List By B2B Email List',
-        description: 'Have you been trying to expand your marketing campaigns by seeking for specialized B2B email lists? Thats exactly what we provide at LeadsQResarch. Our data sets, which contain information on the most well-known international industries, including larger enterprises, SMEs, and executive persons, are ideal for expanding your lead generation pipelines.'
-    },
-    {
-        id: 7,
-        img: [Business],
-        title: 'Targeted List By C Level Executives',
-        description: 'Our C-Level Executives List provides you with extremely accurate contact information to reach your prospects by phone, email, or letter, regardless of the C-Level Executives you wish to connect with: CEOs, CIOs, CFOs, CTOs, CMOs, CSOs, COOs, or any other C-Level Executive. With our C-Level Executives Email List, communicating with these executives is much simpler and takes less time because you wont need to go through several channels to get your point across.'
-    },
-    {
-        id: 7,
-        img: [Business],
-        title: 'Targeted List By Data Mining',
-        description: 'Our data mining service enhances your marketing strategy by identifying the decision-makers in the companies you wish to engage with. We curate specialized lists containing vital contacts tailored specifically for your needs. These lists expedite your sales and marketing endeavors by providing access to top-tier leads, thereby optimizing your resources and saving valuable time and money. Our precise data ensures greater chances of success when connecting with other businesses!'
-    },
+    // {
+    //     id: 4,
+    //     img: [Business],
+    //     title: 'Targeted List By Geography',
+    //     description: 'One highly successful targeting strategy is to choose marketing data based on location. One of the best strategies to expedite the sales process is to concentrate on the areas where the greatest concentration of prospects work with the highest quality. Additionally, it can help with the establishment of focused outbound campaigns and new regional sales teams. You can search by radius, corridor, region, country, province, etc.'
+    // },
+    // {
+    //     id: 5,
+    //     img: [Business],
+    //     title: 'Targeted List By Technology',
+    //     description: 'Your competitive advantage can no longer be guaranteed by firmographics and demographics. Technographics is all the necessary information about the tools and technology that a consumer actively utilizes, just like demographics helps you learn more about the Age, Gender, Occupation, Annual Income, etc. of a target profile.'
+    // },
+    // {
+    //     id: 6,
+    //     img: [Business],
+    //     title: 'Targeted List By B2B Email List',
+    //     description: 'Have you been trying to expand your marketing campaigns by seeking for specialized B2B email lists? Thats exactly what we provide at LeadsQResarch. Our data sets, which contain information on the most well-known international industries, including larger enterprises, SMEs, and executive persons, are ideal for expanding your lead generation pipelines.'
+    // },
+    // {
+    //     id: 7,
+    //     img: [Business],
+    //     title: 'Targeted List By C Level Executives',
+    //     description: 'Our C-Level Executives List provides you with extremely accurate contact information to reach your prospects by phone, email, or letter, regardless of the C-Level Executives you wish to connect with: CEOs, CIOs, CFOs, CTOs, CMOs, CSOs, COOs, or any other C-Level Executive. With our C-Level Executives Email List, communicating with these executives is much simpler and takes less time because you wont need to go through several channels to get your point across.'
+    // },
+    // {
+    //     id: 7,
+    //     img: [Business],
+    //     title: 'Targeted List By Data Mining',
+    //     description: 'Our data mining service enhances your marketing strategy by identifying the decision-makers in the companies you wish to engage with. We curate specialized lists containing vital contacts tailored specifically for your needs. These lists expedite your sales and marketing endeavors by providing access to top-tier leads, thereby optimizing your resources and saving valuable time and money. Our precise data ensures greater chances of success when connecting with other businesses!'
+    // },
 
+
+];
+
+const courses2 = [
+    {
+        id: 1,
+        img: [Business],
+        title: 'Lead Nurturing',
+        description: 'We help you nurture your leads so that they are more likely to convert into customers. We can help you create lead magnets, send follow-up emails, and track your results.'
+    },
+    {
+        id: 2,
+        img: [Business],
+        title: 'Pay Per Lead (PPL) Lead Generation',
+        description: 'The PPL lead generation strategy involves paying a third party only when they generate a qualified lead, which is a potential customer who has expressed interest in your product or service.'
+    },
+    {
+        id: 3,
+        img: [Business],
+        title: 'Email Marketing',
+        description: 'We help you create and send email campaigns that are effective at generating leads. We can help you segment your audience, create compelling emails, and track your results.'
+    }
 
 ];
 
@@ -96,8 +118,12 @@ function Courses() {
                 </div>
             </header>
             <div className='container py-5'>
-                <h1 className='text-center'>Customize Your B2B Email List Based On </h1>
-                <div className='row g-4'>
+                <h1 className='text-center'>B2B Data Mining/ Data Scraping</h1>
+                <h5>Are you looking for B2B data lists to scale your marketing strategies? Our services are exactly what you need. The data sets we offer cover the most prominent global industries, including large corporations, SMEs, and executive staff.
+
+                </h5>
+                <h5> <br /> Customize Your B2B Data Mining Based On -</h5>
+                <div className='row g-4 mt-3'>
                     {courses.map((course) => (
                         <div key={course.id} className='col-lg-6'>
                             <Card className='text-white shadow scale-hover-effect'>
@@ -110,6 +136,26 @@ function Courses() {
                         </div>
                     ))}
                 </div>
+
+                <h1 className='mt-5 fs-1 text-center'>Lead Generation </h1>
+                <h5>
+                    Leads Q Research helps companies generate more leads by creating high-quality content, running targeted advertising campaigns, and building relationships with key decision-makers.
+                </h5>
+                <div className='row g-4 mt-3'>
+                    {courses2.map((course) => (
+                        <div key={course.id} className='col-lg-6'>
+                            <Card className='text-white shadow scale-hover-effect'>
+                                <Card.Img src={course.img} className='img-height' />
+                                <Card.ImgOverlay className='d-flex flex-column align-items-center justify-content-center p-md-5'>
+                                    <Card.Title className='fs-1 text-info text-center'>{course.title}</Card.Title>
+                                    <Card.Text className='text-center'>{course.description}</Card.Text>
+                                </Card.ImgOverlay>
+                            </Card>
+                        </div>
+                    ))}
+                </div>
+
+
                 <h1 className='text-center mt-5 mb-3'>Study of global markets and customers Based On </h1>
                 <div className='row g-4'>
                     {globalMarket.map((course) => (
