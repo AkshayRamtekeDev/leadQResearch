@@ -105,7 +105,7 @@ function App() {
                       <p>Phone Number : +91 8329025467</p>
                     </li>
                     <li>
-                      <p>Email - email@test.com</p>
+                      <p>Email - info@leadsqresearch.com</p>
                     </li>
                   </ul>
                 </div>
