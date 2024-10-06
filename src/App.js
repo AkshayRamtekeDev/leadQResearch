@@ -121,8 +121,9 @@ function App() {
         </div>
         {/* className='bg-body-tertiary' */}
         <div>
-          <div className='container'>
-            <p className='p-3 m-0 text-center'>copyright @ made by LeadsQResearch</p>
+          <div className='container text-center'>
+            <img src={Blog3Img} className='img-fluid' style={{ height: '100px', width: '100px' }} alt="" />
+            <p className='p-3 pt-0 m-0'>copyright made by LeadsQResearch</p>
           </div>
         </div>
       </footer>
