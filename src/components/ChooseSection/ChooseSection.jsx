@@ -72,7 +72,7 @@ function ChooseSection() {
                                     Lead Generation
                                 </Card.Title>
                                 <Card.Text className='text-center'>
-                                    Leads Q Research helps companies generate more leads by creating high-quality content, running targeted advertising campaigns, and building relationships with key decision-makers.
+                                    LeadsQResearch helps companies generate more leads by creating high-quality content, running targeted advertising campaigns, and building relationships with key decision-makers.
                                 </Card.Text>
                             </Card.Body>
                         </Card>

@@ -37,7 +37,7 @@ function Home() {
                 <div className='container d-flex flex-column align-items-center'>
                     <h2>Welcome To</h2>
                     <h1 className='text-center fw-semibold'>LeadsQResearch</h1>
-                    <p>Welcome to Leads Q Research, where innovation meets expertise in lead generation for businesses of all sizes. We're not just another lead generation company; we're a dynamic startup driven by a passion for helping businesses grow and succeed in today's competitive landscape.
+                    <p>Welcome to LeadsQResearch, where innovation meets expertise in lead generation for businesses of all sizes. We're not just another lead generation company; we're a dynamic startup driven by a passion for helping businesses grow and succeed in today's competitive landscape.
                     </p>
                     <div className='d-flex flex-column flex-sm-row align-items-center'>
                         <Link to="/courses">

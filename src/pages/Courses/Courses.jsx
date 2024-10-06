@@ -139,7 +139,7 @@ function Courses() {
 
                 <h1 className='mt-5 fs-1 text-center'>Lead Generation </h1>
                 <h5>
-                    Leads Q Research helps companies generate more leads by creating high-quality content, running targeted advertising campaigns, and building relationships with key decision-makers.
+                    LeadsQResearch helps companies generate more leads by creating high-quality content, running targeted advertising campaigns, and building relationships with key decision-makers.
                 </h5>
                 <div className='row g-4 mt-3'>
                     {courses2.map((course) => (
